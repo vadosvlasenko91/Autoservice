@@ -2,6 +2,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  grid-gap: 10px;
 }
 a {
   text-decoration: none;
@@ -168,6 +169,7 @@ body {
   justify-content: space-between;
   max-width: 1170px;
   margin: 0 auto;
+  text-align: center;
 }
 .sigara {
   font-style: normal;
@@ -218,10 +220,6 @@ body {
   background: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
-  background-image: url(/img/taksi-fon-krasivo-25.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vh;
 }
 .comads__all {
   max-width: 1170px;
@@ -271,13 +269,14 @@ body {
   margin: 0 auto;
 }
 
-.logo span {
-}
+/* .logo span {
+} */
 .footer span.logo__footer {
   color: #ffffff;
 }
 .contakt-list {
   display: inline;
+  color: #ffffff;
 }
 .street a {
   font-style: normal;
@@ -326,7 +325,7 @@ body {
 }
 
 .social-tl {
-  background-image: url(/img/telegram.png);
+  background-image: url(../img/telegram.png);
 }
 
 .social-fb {
@@ -334,3 +333,39 @@ body {
 }
 
 /*.........................Портфолио........... */
+
+.foto-comands {
+  display: flex;
+  text-align: center;
+}
+
+.comands-goal {
+  background-image: url(/img/taksi-fon-krasivo-25.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 67vh;
+}
+
+.social {
+  padding-left: 900px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.big-bin {
+  color: white;
+  padding-left: 965px;
+  margin-bottom: 10px;
+}
