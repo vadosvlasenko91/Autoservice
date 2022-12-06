@@ -337,9 +337,11 @@ body {
 .foto-comands {
   display: flex;
   text-align: center;
+  padding-left: 350px;
+  padding-top: 150px;
 }
 
-.comands-goal {
+.comands__goal {
   background-image: url(/img/taksi-fon-krasivo-25.jpg);
   background-repeat: no-repeat;
   background-size: cover;
