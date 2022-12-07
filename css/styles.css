@@ -342,7 +342,7 @@ body {
 }
 
 .comands__goal {
-  background-image: url(/img/taksi-fon-krasivo-25.jpg);
+  background-image: url(../img/taksi-fon-krasivo-25.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 67vh;
