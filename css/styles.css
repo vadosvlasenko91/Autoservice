@@ -321,7 +321,7 @@ body {
   background-repeat: no-repeat;
 }
 .social-instagram {
-  background-image: url(/img/free-64.png);
+  background-image: url(../img/free-64.png);
 }
 
 .social-tl {
@@ -329,7 +329,7 @@ body {
 }
 
 .social-fb {
-  background-image: url(/img/free-icon-facebook-3955011.png);
+  background-image: url(../img/free-icon-facebook-3955011.png);
 }
 
 /*.........................Портфолио........... */
